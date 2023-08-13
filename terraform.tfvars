@@ -4,7 +4,7 @@ vnetname = "myVirtualNetwork"
 subnetname = "mySubnet"
 ipaddressname = "myIpAddress"
 nsgname = "SSHOnlyGroup"
-networkinterfacename = "myNetworkTerraform"
+networkinterfacename = "myNetworkInterface"
 tags = {
     environment = "test"
 }
