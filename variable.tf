@@ -29,3 +29,7 @@ variable "nsgname" {
 variable "networkinterfacename" {
     type = string
 }
+
+variable "virtualMachineName" {
+    type = string
+}
