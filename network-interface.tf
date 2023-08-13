@@ -14,6 +14,6 @@ resource "azurerm_network_interface" "mynetworkinterface" {
 }
 
 resource "azurerm_network_interface_security_group_association" "mynisgassociation" {
-  network_interface_id      = azurerm_network_interface.myNetworkInterface.id
+  network_interface_id      = azurerm_network_interface.mynetworkinterface.id
   network_security_group_id = azurerm_network_security_group.mysecuritygroup.id
 }
